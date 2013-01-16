@@ -1,0 +1,81 @@
+<rml>
+<head>
+<title>Capture the Flag</title>
+<style>
+    body
+    {
+        font-family: DroidSans;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18pt;
+        color: white;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        background: rgba(255, 255, 255, 0);
+    }
+
+    h1, h2
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 30px;
+        font-weight: bold;
+        font-size: 64pt;
+    }
+
+    h2
+    {
+        padding: 13px 33px;
+        color: black;
+    }
+
+    p#help
+    {
+        padding: 0 37px;
+        display: block;
+        position: absolute;
+        top: 96px;
+        left: 0;
+        color: #d0d0c0;
+    }
+
+    b
+    {
+        font-weight: bold;
+    }
+
+    #logo
+    {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 14px;
+    }
+
+    div#header
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 144px;
+        background-color: rgba(32, 26, 18, 192);
+    }
+</style>
+</head>
+<body>
+
+<div id="header">
+<h2>Capture the Flag</h2>
+<h1>Capture the Flag</h1>
+
+<p id="help">PRESS <b>`H'</b> FOR HELP.</p>
+</div>
+
+<img id="logo" src="../logo_white.png"/>
+</body>
+</rml>

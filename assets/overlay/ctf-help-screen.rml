@@ -1,0 +1,81 @@
+<rml>
+<head>
+    <title>Capture the Flag</title>
+    <style>
+
+        body
+        {
+        font-family: DroidSans;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15;
+        color: white;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(62, 53, 53, 80%);
+        }
+
+        h1, h2
+        {
+        top: 0;
+        left: 0;
+        padding: 10px 30px;
+        font-weight: bold;
+        font-size: 64pt;
+        }
+        
+        h2
+        {
+        padding: 13px 33px;
+        color: black;
+        }
+
+        p
+        {
+        padding-left: 20px;
+        padding-right: 20px;
+        display:block;
+        }
+
+        b
+        {
+        font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Capture the Flag</h1>
+
+<br/>
+<br/>
+
+<p>Capture the Flag is a strategic game played by two teams of bots. Points are scored whenever a team retrieves the other teams flag and returns it to its flag scoring location. The winner is the team that scores the most points. Dead bots are respawned synchronously at regular intervals.</p>
+
+<p>Bots in this game can not be interactively controlled. Bots are controlled by strategic commanders which are written in python. More information describing how to write a commander can be found at http://aisandbox.com/. There you will find step by step guides to writing your own commander, API documentation and information on how to submit your commander into the competition.</p>
+
+<br/>
+
+<p><b>H</b>                     - Show/Hide the help screen</p>
+
+<br/>
+
+<p><b>Camera control:</b></p>
+<p><b>W,S</b>                   - Forward, back</p>
+<p><b>A,D,Q,E, middle mouse</b> - Panning</p>
+<p><b>Right mouse</b>           - Rotation</p>
+<p><b>Home</b>                  - Reset camera</p>
+<p><b>Shift</b>                 - Faster camera motion modifier</p>
+<p><b>Ctrl</b>                  - Slower camera motion modifier</p>
+
+<br/>
+
+<p><b>F1-F4</b>                 - Debug visualizations</p>
+<p><b>F9</b>                    - Performance visualization</p>
+<p><b>End</b>                   - Hide debug sidebar</p>
+
+</body>
+</rml>
